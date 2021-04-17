@@ -4,7 +4,7 @@ services:
     image: contribsys/faktory
     command: /faktory -b :7419 -w :7420
     volumes:
-      - /faktory-data:/var/lib/faktory
+      - ./faktory-data:/var/lib/faktory
     ports:
       - 7419:7419
       - 7420:7420

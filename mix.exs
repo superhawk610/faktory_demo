@@ -22,7 +22,8 @@ defmodule FaktoryDemo.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:faktory_worker, "~> 1.3"}
+      # {:faktory_worker, "~> 1.3"}
+      {:faktory_worker, path: "~/code/faktory_worker"}
     ]
   end
 end
